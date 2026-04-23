@@ -212,7 +212,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'Media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CSRF_TRUSTED_ORIGINS = [
-    "https://web-production-576ff7.up.railway.app/
+    "https://web-production-576ff7.up.railway.app"
 ]
 CORS_ALLOWED_ORIGINS = [
     "https://web-production-576ff7.up.railway.app"
