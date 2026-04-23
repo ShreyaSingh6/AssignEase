@@ -50,7 +50,7 @@ import os
 import dj_database_url
 
 DEBUG = True
-ALLOWED_HOSTS = ['web-production-0b470.up.railway.app', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['web-production-576ff7.up.railway.app', '127.0.0.1', 'localhost']
 
 SECRET_KEY = os.environ.get("SECRET_KEY")  # Remove the hardcoded one
 
@@ -212,9 +212,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'Media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CSRF_TRUSTED_ORIGINS = [
-    "https://web-production-0b470.up.railway.app"
+    "https://web-production-576ff7.up.railway.app/
 ]
 CORS_ALLOWED_ORIGINS = [
-    "https://web-production-0b470.up.railway.app"
+    "https://web-production-576ff7.up.railway.app"
 ]
 
